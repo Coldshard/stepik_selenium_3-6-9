@@ -3,7 +3,7 @@ from selenium import webdriver
 import time
 from selenium.webdriver.support import expected_conditions as ec
 
-def test_items(browser):
+def test_add_to_basket_button_present(browser):
 	link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/'
 	browser.get(link)
 	# time.sleep(30)
